@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="0.624">
+<testcase classname="Test Hooks one" name="This scenario is to test First hooks functionality" time="0.056">
+<system-out><![CDATA[Given this is the first step................................................passed
+When this is the second step................................................passed
+Then this is the third step.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Hooks one" name="This scenario is to test Second hooks functionality" time="0.016">
+<system-out><![CDATA[Given this is the fourth step...............................................passed
+When this is the fifth step.................................................passed
+Then this is the sixth step.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Determine if String is Palindrome or not. A string is a palindrome if it reads" name="Valid Palindrome" time="0.048">
+<system-out><![CDATA[Given I entered string "Refer"..............................................passed
+When I test it for Palindrome...............................................passed
+Then the result should be "true"............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Determine if String is Palindrome or not. A string is a palindrome if it reads" name="Invalid Palindrome" time="0.011">
+<system-out><![CDATA[Given I entered string "Coin"...............................................passed
+When I test it for Palindrome...............................................passed
+Then the result should be "false"...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Determine if String is Palindrome or not. A string is a palindrome if it reads" name="Check if String is Palindrome" time="0">
+<system-out><![CDATA[Given I entered word "Refer"................................................passed
+When I test it for Palindrome...............................................passed
+Then the output should be "true"............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Determine if String is Palindrome or not. A string is a palindrome if it reads" name="Check if String is Palindrome 2" time="0.002">
+<system-out><![CDATA[Given I entered word "Coin".................................................passed
+When I test it for Palindrome...............................................passed
+Then the output should be "false"...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Determine if String is Palindrome or not. A string is a palindrome if it reads" name="Check if String is Palindrome 3" time="0.002">
+<system-out><![CDATA[Given I entered word "Space"................................................passed
+When I test it for Palindrome...............................................passed
+Then the output should be "false"...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Determine if String is Palindrome or not. A string is a palindrome if it reads" name="Check if String is Palindrome 4" time="0.002">
+<system-out><![CDATA[Given I entered word "racecar"..............................................passed
+When I test it for Palindrome...............................................passed
+Then the output should be "true"............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
